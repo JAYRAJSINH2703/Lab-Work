@@ -6,11 +6,29 @@ d=int(input("Enter Any Number :"))
 
 
 
-if (a>b and a>c and a>d):
-    print("A is Maximum")
-elif(b>a and b>c and b>d):
-    print("B is Maximum")
-elif (c>a and c>b and c>d):
-    print("C is Maximum")
+
+if a>b:
+    if a>c:
+        if a>d:
+            print(a,"is largest number")
+        else:
+            print(d,"is the largest number")
+    else:
+        if c>d:
+            print(c,"is the largest")
+        else:
+            print(d,"is the largest")   
+
 else:
-    print("D is Maximum")
+    if b>c:
+        if b>d:
+            print(b,"is the largest number")
+        else:
+            print(d,"is the largest number")
+    else:
+        if c>d:
+            print(c,"is the largest")
+        else:
+            print(d,"is the largest")            
+
+
