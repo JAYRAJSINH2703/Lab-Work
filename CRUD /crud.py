@@ -26,7 +26,7 @@ while True :
 
      found = False
 
-     for s in students:
+     for s in students: 
         if s["id"] == id:
             found = True
             break
